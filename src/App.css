@@ -140,7 +140,6 @@ a:hover {
 /* Containers */
 
 .custom-box-height-full {
-  height: 700px;
   background: #fff;
   border-radius: 20px;
   -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.05);
@@ -525,4 +524,21 @@ footer a:hover {
 
 .opacity-0 {
   opacity: 0;
+}
+
+
+@media screen and (orientation: portrait) {
+
+.calendar-tools .float-right {
+  display: none;
+}
+
+.wraper-calendar div:nth-child(2) {
+  display: none;
+}
+
+.week {
+  grid-template-columns: unset;
+}
+
 }
