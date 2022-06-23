@@ -1,6 +1,7 @@
 import React from "react";
 
-import coderhouse from "../img/avatar/coderhouse.jpg";
+import EventsByDay from './EventsByDay'
+
 import mapex from "../img/avatar/mapex.jpg";
 import mashinky from "../img/avatar/mashinky.png";
 import overwatch from "../img/avatar/overwatch.png";
@@ -11,6 +12,15 @@ import netflix from "../img/avatar/netflix.png";
 import boca from "../img/avatar/boca.png";
 
 const Calendar = () => {
+
+
+  const d = new Date();
+  const month = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+
+  let nameMonth = month[d.getMonth()],
+      day = d.getDate();
+
+
   return (
     <div className="custom-box custom-box-height-full p-3">
       <div className="row">
@@ -22,7 +32,7 @@ const Calendar = () => {
             <a href="#!">
               <i className="fas fa-chevron-right"></i>
             </a>
-            <h2>Julio 2019</h2>
+            <h2>{nameMonth} {day}</h2>
             <a href="#!" className="float-right opacity-5">
               <i className="fas fa-bars"></i>
             </a>
@@ -45,16 +55,7 @@ const Calendar = () => {
               <label className="day-label">1</label>
               <ul>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${coderhouse})`,
-                    }}
-                    title="coderhouse"
-                  >
-                    coderhouse
-                  </a>
+                  <EventsByDay nameAccount={'Coderhouse'} imgAccount={'coderhouse'} />
                 </li>
                 <li>
                   <a
@@ -155,16 +156,7 @@ const Calendar = () => {
                 <li></li>
                 <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${coderhouse})`,
-                    }}
-                    title="coderhouse"
-                  >
-                    coderhouse
-                  </a>
+                  <EventsByDay nameAccount={'coderhouse'} />
                 </li>
                 <li>
                   <a
