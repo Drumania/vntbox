@@ -24,10 +24,10 @@ const Header = () => {
       <div className="col-4 text-right user-perfil">
         <div className="row no-gutters">
           <h4 className="col-8 user-perfil-name text-truncate">
-            <a href="profile.html">Martin Brumana</a>
+            <a href="Profile">Martin Brumana</a>
           </h4>
           <div className="col-2 user-perfil-img">
-            <a href="profile.html">&nbsp;</a>
+            <a href="Profile">&nbsp;</a>
           </div>
           <div className="col-2 user-perfil-dots">
             {/* <i className="fas fa-plus-square" title="Add Event" /> */}

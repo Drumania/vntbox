@@ -46,7 +46,7 @@ const Calendar = () => {
               <ul>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${coderhouse})`,
@@ -58,7 +58,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mapex})`,
@@ -70,7 +70,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mashinky})`,
@@ -82,7 +82,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${overwatch})`,
@@ -94,7 +94,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${platzi})`,
@@ -105,7 +105,7 @@ const Calendar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="event.html" className="event-in-cal-more">
+                  <a href="Event" className="event-in-cal-more">
                     2+
                   </a>
                 </li>
@@ -120,7 +120,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${uber})`,
@@ -132,7 +132,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${ufc})`,
@@ -156,7 +156,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${coderhouse})`,
@@ -168,7 +168,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mapex})`,
@@ -202,7 +202,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mapex})`,
@@ -231,7 +231,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mapex})`,
@@ -243,7 +243,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mashinky})`,
@@ -255,7 +255,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${overwatch})`,
@@ -285,7 +285,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${netflix})`,
@@ -297,7 +297,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${boca})`,
@@ -319,7 +319,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${uber})`,
@@ -331,7 +331,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${ufc})`,
@@ -343,7 +343,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mashinky})`,
@@ -355,7 +355,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${overwatch})`,
@@ -380,7 +380,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${netflix})`,
@@ -405,7 +405,7 @@ const Calendar = () => {
                 <li></li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${ufc})`,
@@ -440,7 +440,7 @@ const Calendar = () => {
               <ul>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${overwatch})`,
@@ -452,7 +452,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${platzi})`,
@@ -464,7 +464,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${uber})`,
@@ -476,7 +476,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${ufc})`,
@@ -488,7 +488,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${mashinky})`,
@@ -500,7 +500,7 @@ const Calendar = () => {
                 </li>
                 <li>
                   <a
-                    href="event.html"
+                    href="Event"
                     className="event-in-cal"
                     style={{
                       backgroundImage: `url(${overwatch})`,
