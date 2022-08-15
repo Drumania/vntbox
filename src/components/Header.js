@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="col-4 text-right user-perfil">
         <div className="row no-gutters">
-          <h4 className="col-8 user-perfil-name text-truncate">
+          <h4 className="col-8 user-perfil-name text-end text-truncate">
             <a href="Profile">Martin Brumana</a>
           </h4>
           <div className="col-2 user-perfil-img">

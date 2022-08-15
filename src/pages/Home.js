@@ -1,8 +1,8 @@
 import React from "react";
-import MainEvents from "./MainEvents";
-import WhoAdd from "./WhoAdd";
-import Footer from "./Footer";
-import Calendar from "./Calendar";
+import MainEvents from "../components/MainEvents";
+import WhoAdd from "../components/WhoAdd";
+import Footer from "../components/Footer";
+import Calendar from "../components/Calendar";
 import Event from "./Event";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.min.css'

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import netflix from "../img/avatar/netflix.png";
-import WhoAdd from "./WhoAdd";
-import Footer from "./Footer";
-import Calendar from "./Calendar";
+import WhoAdd from "../components/WhoAdd";
+import Footer from "../components/Footer";
+import Calendar from "../components/Calendar";
 
 const Profile = () => {
   return (
@@ -44,20 +44,21 @@ const Profile = () => {
               www.netflix.com
             </a>
           </p>
-          <div className="btn-group" role="group" aria-label="Basic example">
-            <button type="button" className="btn btn-secondary">
+
+          <div class="btn-group" role="group" aria-label="Default button group">
+            <button type="button" class="btn btn-outline-dark">
               <i className="fab fa-instagram"></i>
             </button>
-            <button type="button" className="btn btn-secondary">
+            <button type="button" class="btn btn-outline-dark">
               <i className="fab fa-facebook-square"></i>
             </button>
-            <button type="button" className="btn btn-secondary">
+            <button type="button" class="btn btn-outline-dark">
               <i className="fab fa-youtube-square"></i>
             </button>
-            <button type="button" className="btn btn-secondary">
+            <button type="button" class="btn btn-outline-dark">
               <i className="fab fa-twitch"></i>
             </button>
-            <button type="button" className="btn btn-secondary">
+            <button type="button" class="btn btn-outline-dark">
               <i className="fab fa-twitter-square"></i>
             </button>
           </div>

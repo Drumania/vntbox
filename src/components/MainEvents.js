@@ -11,7 +11,7 @@ const MainEvents = () => {
           <ul className="main-events">
             <li className="event-medium">
               <a
-                href="event.html"
+                href="Event"
                 style={{
                   backgroundImage: `url(${netflixCasadepapel})`,
                 }}
@@ -33,7 +33,7 @@ const MainEvents = () => {
             </li>
             <li className="event-medium">
               <a
-                href="event.html"
+                href="Event"
                 style={{
                   backgroundImage: `url(${ufc})`,
                 }}

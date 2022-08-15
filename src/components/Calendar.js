@@ -1,5 +1,4 @@
 import React from "react";
-
 import EventsByDay from "./EventsByDay";
 
 const Calendar = () => {
@@ -39,23 +38,23 @@ const Calendar = () => {
               </h2>
             </div>
             <div>
-              <a href="#!" className="opacity-5">
-                <i className="fas fa-bars"></i>
-              </a>
               <a href="#!" className="opacity-10">
                 <i className="fas fa-th"></i>
+              </a>
+              <a href="#!" className="opacity-5">
+                <i className="fas fa-bars"></i>
               </a>
             </div>
           </div>
 
-          <div className="week">
-            <div className="week-day">Monday</div>
-            <div className="week-day">Tuesday</div>
-            <div className="week-day">Wednesday</div>
-            <div className="week-day">Thursday</div>
-            <div className="week-day">Friday</div>
-            <div className="week-day">Saturday</div>
-            <div className="week-day">Sunday</div>
+          <div className="week-names">
+            <div className="week-day">Lunes</div>
+            <div className="week-day">Martes</div>
+            <div className="week-day">Miércoles</div>
+            <div className="week-day">Jueves</div>
+            <div className="week-day">Viernes</div>
+            <div className="week-day">Sábado</div>
+            <div className="week-day">Domingo</div>
           </div>
           <div className="week">
             <div className="day">

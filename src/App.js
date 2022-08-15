@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import Profile from "./components/Profile";
-import Event from "./components/Event";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import Event from "./pages/Event";
 
 function App() {
   return (
