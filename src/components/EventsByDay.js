@@ -7,7 +7,7 @@ const EventsByDay = ({nameAccount,imgAccount}) => {
       href="Event"
       className="event-in-cal"
       style={{
-        backgroundImage: `url(../img/avatar/${imgAccount}.jpg)`,
+        backgroundImage: `url(../img/avatar/${imgAccount})`,
       }}
       title="coderhouse"
     >

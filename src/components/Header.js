@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Search from './Search'
 
 const Header = () => {
   return (
@@ -9,17 +10,7 @@ const Header = () => {
       </Link>
 
       <div className="col-5 row no-gutters">
-        <div className="col-1 pl-3">
-          <i className="fas fa-search opacity-3" />
-        </div>
-        <div className="col-6 mt-4">
-          <input
-            type="search"
-            className="form-control"
-            id="search"
-            placeholder="Search..."
-          />
-        </div>
+        <Search />
       </div>
       <div className="col-4 text-right user-perfil">
         <div className="row no-gutters">

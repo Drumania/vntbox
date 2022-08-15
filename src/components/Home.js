@@ -3,7 +3,7 @@ import MainEvents from "./MainEvents";
 import WhoAdd from "./WhoAdd";
 import Footer from "./Footer";
 import Calendar from "./Calendar";
-import Profile from "./Profile";
+import Event from "./Event";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
@@ -28,7 +28,7 @@ const Home = () => {
             <Calendar />
           </SwiperSlide>
           <SwiperSlide>
-            <Profile />
+            <Event />
           </SwiperSlide>
         </Swiper>        
       </main>

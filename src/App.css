@@ -149,6 +149,12 @@ a:hover {
 
 /* Calendar */
 
+.calendar-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .calendar-tools a {
   font-size: 20px;
   text-transform: uppercase;
@@ -162,11 +168,6 @@ a:hover {
 .calendar-tools h2 {
   width: 200px;
   display: inline-block;
-}
-
-.wraper-calendar div:nth-child(2) {
-  border-bottom: 1px solid var(--lines-color);
-  border-left: none;
 }
 
 .week {
@@ -198,11 +199,16 @@ a:hover {
   height: 70px;
   margin: 5px 0 0 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .day ul li {
-  height: 29px;
-  width: 29px;
+  height: 30px;
+  width: 30px;
   display: block;
   float: left;
   margin: 2px;
@@ -283,6 +289,34 @@ a:hover {
 .avatar-user .avatar-name:hover,
 .avatar-user .avatar-next-event:hover {
   text-decoration: none;
+}
+
+/* Search */
+
+.wrap-search {
+  background-color: rgb(230, 230, 230);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 44px;
+  width: 300px;
+  margin: 17px 10px 0 0;
+}
+
+.input-search {
+  background-color: transparent;
+  border: 0;
+  margin-left: 10px;
+  height: 34px;
+  line-height: 37px;
+  width: 85%;
+}
+
+.input-search:focus {
+  outline: 0;
+  border: 0;
 }
 
 /* btn add */
@@ -526,19 +560,16 @@ footer a:hover {
   opacity: 0;
 }
 
-
 @media screen and (orientation: portrait) {
+  .calendar-tools .float-right {
+    display: none;
+  }
 
-.calendar-tools .float-right {
-  display: none;
-}
+  .wraper-calendar div:nth-child(2) {
+    display: none;
+  }
 
-.wraper-calendar div:nth-child(2) {
-  display: none;
-}
-
-.week {
-  grid-template-columns: unset;
-}
-
+  .week {
+    grid-template-columns: unset;
+  }
 }

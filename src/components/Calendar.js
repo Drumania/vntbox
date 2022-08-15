@@ -1,44 +1,51 @@
 import React from "react";
 
-import EventsByDay from './EventsByDay'
-
-import mapex from "../img/avatar/mapex.jpg";
-import mashinky from "../img/avatar/mashinky.png";
-import overwatch from "../img/avatar/overwatch.png";
-import platzi from "../img/avatar/platzi.png";
-import uber from "../img/avatar/uber.png";
-import ufc from "../img/avatar/ufc.jpg";
-import netflix from "../img/avatar/netflix.png";
-import boca from "../img/avatar/boca.png";
+import EventsByDay from "./EventsByDay";
 
 const Calendar = () => {
-
-
   const d = new Date();
-  const month = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+  const month = [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ];
 
   let nameMonth = month[d.getMonth()],
-      day = d.getDate();
-
+    day = d.getDate();
 
   return (
     <div className="custom-box custom-box-height-full p-3">
       <div className="row">
         <div className="col-12 wraper-calendar">
           <div className="calendar-tools">
-            <a href="#!">
-              <i className="fas fa-chevron-left"></i>
-            </a>
-            <a href="#!">
-              <i className="fas fa-chevron-right"></i>
-            </a>
-            <h2>{nameMonth} {day}</h2>
-            <a href="#!" className="float-right opacity-5">
-              <i className="fas fa-bars"></i>
-            </a>
-            <a href="#!" className="float-right opacity-10">
-              <i className="fas fa-th"></i>
-            </a>
+            <div>
+              <a href="#!">
+                <i className="fas fa-chevron-left"></i>
+              </a>
+              <a href="#!">
+                <i className="fas fa-chevron-right"></i>
+              </a>
+              <h2>
+                {nameMonth} {day}
+              </h2>
+            </div>
+            <div>
+              <a href="#!" className="opacity-5">
+                <i className="fas fa-bars"></i>
+              </a>
+              <a href="#!" className="opacity-10">
+                <i className="fas fa-th"></i>
+              </a>
+            </div>
           </div>
 
           <div className="week">
@@ -55,55 +62,31 @@ const Calendar = () => {
               <label className="day-label">1</label>
               <ul>
                 <li>
-                  <EventsByDay nameAccount={'Coderhouse'} imgAccount={'coderhouse'} />
+                  <EventsByDay
+                    nameAccount={"Coderhouse"}
+                    imgAccount={"coderhouse.jpg"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mapex})`,
-                    }}
-                    title="mapex"
-                  >
-                    mapex
-                  </a>
+                  <EventsByDay nameAccount={"mapex"} imgAccount={"mapex.jpg"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mashinky})`,
-                    }}
-                    title="mashinky"
-                  >
-                    mashinky
-                  </a>
+                  <EventsByDay
+                    nameAccount={"mashinky"}
+                    imgAccount={"mashinky.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${overwatch})`,
-                    }}
-                    title="overwatch"
-                  >
-                    overwatch
-                  </a>
+                  <EventsByDay
+                    nameAccount={"Overwatch"}
+                    imgAccount={"overwatch.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${platzi})`,
-                    }}
-                    title="platzi"
-                  >
-                    platzi
-                  </a>
+                  <EventsByDay
+                    nameAccount={"Platzi"}
+                    imgAccount={"platzi.png"}
+                  />
                 </li>
                 <li>
                   <a href="Event" className="event-in-cal-more">
@@ -115,33 +98,11 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">2</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${uber})`,
-                    }}
-                    title="uber"
-                  >
-                    uber
-                  </a>
+                  <EventsByDay nameAccount={"Uber"} imgAccount={"uber.png"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${ufc})`,
-                    }}
-                    title="ufc"
-                  >
-                    ufc
-                  </a>
+                  <EventsByDay nameAccount={"Ufc"} imgAccount={"ufc.jpg"} />
                 </li>
               </ul>
             </div>
@@ -151,24 +112,8 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">4</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <EventsByDay nameAccount={'coderhouse'} />
-                </li>
-                <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mapex})`,
-                    }}
-                    title="mapex"
-                  >
-                    mapex
-                  </a>
+                  <EventsByDay nameAccount={"coderhouse"} />
                 </li>
               </ul>
             </div>
@@ -187,22 +132,8 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">8</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mapex})`,
-                    }}
-                    title="mapex"
-                  >
-                    mapex
-                  </a>
+                  <EventsByDay nameAccount={"mapex"} imgAccount={"mapex.jpg"} />
                 </li>
               </ul>
             </div>
@@ -218,44 +149,14 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">12</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mapex})`,
-                    }}
-                    title="mapex"
-                  >
-                    mapex
-                  </a>
+                  <EventsByDay nameAccount={"mapex"} imgAccount={"mapex.jpg"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mashinky})`,
-                    }}
-                    title="mashinky"
-                  >
-                    mashinky
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${overwatch})`,
-                    }}
-                    title="overwatch"
-                  >
-                    overwatch
-                  </a>
+                  <EventsByDay
+                    nameAccount={"mashinky"}
+                    imgAccount={"mashinky.png"}
+                  />
                 </li>
               </ul>
             </div>
@@ -271,33 +172,14 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">15</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${netflix})`,
-                    }}
-                    title="netflix"
-                  >
-                    netflix
-                  </a>
+                  <EventsByDay
+                    nameAccount={"netflix"}
+                    imgAccount={"netflix.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${boca})`,
-                    }}
-                    title="boca"
-                  >
-                    boca
-                  </a>
+                  <EventsByDay nameAccount={"Boca"} imgAccount={"boca.png"} />
                 </li>
               </ul>
             </div>
@@ -307,55 +189,23 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">17</label>
               <ul>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${uber})`,
-                    }}
-                    title="uber"
-                  >
-                    uber
-                  </a>
+                  <EventsByDay nameAccount={"Uber"} imgAccount={"uber.png"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${ufc})`,
-                    }}
-                    title="ufc"
-                  >
-                    ufc
-                  </a>
+                  <EventsByDay nameAccount={"Ufc"} imgAccount={"ufc.jpg"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mashinky})`,
-                    }}
-                    title="mashinky"
-                  >
-                    mashinky
-                  </a>
+                  <EventsByDay
+                    nameAccount={"mashinky"}
+                    imgAccount={"mashinky.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${overwatch})`,
-                    }}
-                    title="overwatch"
-                  >
-                    overwatch
-                  </a>
+                  <EventsByDay
+                    nameAccount={"Overwatch"}
+                    imgAccount={"overwatch.png"}
+                  />
                 </li>
               </ul>
             </div>
@@ -365,22 +215,11 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">19</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${netflix})`,
-                    }}
-                    title="netflix"
-                  >
-                    netflix
-                  </a>
+                  <EventsByDay
+                    nameAccount={"netflix"}
+                    imgAccount={"netflix.png"}
+                  />
                 </li>
               </ul>
             </div>
@@ -390,22 +229,8 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">21</label>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${ufc})`,
-                    }}
-                    title="ufc"
-                  >
-                    ufc
-                  </a>
+                  <EventsByDay nameAccount={"Ufc"} imgAccount={"ufc.jpg"} />
                 </li>
               </ul>
             </div>
@@ -420,6 +245,10 @@ const Calendar = () => {
             </div>
             <div className="day">
               <label className="day-label">24</label>
+              <EventsByDay
+                nameAccount={"Coderhouse"}
+                imgAccount={"coderhouse.jpg"}
+              />
             </div>
             <div className="day">
               <label className="day-label">25</label>
@@ -431,76 +260,28 @@ const Calendar = () => {
               <label className="day-label">27</label>
               <ul>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${overwatch})`,
-                    }}
-                    title="overwatch"
-                  >
-                    overwatch
-                  </a>
+                  <EventsByDay
+                    nameAccount={"Overwatch"}
+                    imgAccount={"overwatch.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${platzi})`,
-                    }}
-                    title="platzi"
-                  >
-                    platzi
-                  </a>
+                  <EventsByDay nameAccount={"Uber"} imgAccount={"uber.png"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${uber})`,
-                    }}
-                    title="uber"
-                  >
-                    uber
-                  </a>
+                  <EventsByDay nameAccount={"Ufc"} imgAccount={"ufc.jpg"} />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${ufc})`,
-                    }}
-                    title="ufc"
-                  >
-                    ufc
-                  </a>
+                  <EventsByDay
+                    nameAccount={"mashinky"}
+                    imgAccount={"mashinky.png"}
+                  />
                 </li>
                 <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${mashinky})`,
-                    }}
-                    title="mashinky"
-                  >
-                    mashinky
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="Event"
-                    className="event-in-cal"
-                    style={{
-                      backgroundImage: `url(${overwatch})`,
-                    }}
-                    title="overwatch"
-                  >
-                    overwatch
-                  </a>
+                  <EventsByDay
+                    nameAccount={"Overwatch"}
+                    imgAccount={"overwatch.png"}
+                  />
                 </li>
               </ul>
             </div>
