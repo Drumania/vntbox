@@ -45,20 +45,20 @@ const Profile = () => {
             </a>
           </p>
 
-          <div class="btn-group" role="group" aria-label="Default button group">
-            <button type="button" class="btn btn-outline-dark">
+          <div className="btn-group" role="group" aria-label="Default button group">
+            <button type="button" className="btn btn-outline-dark">
               <i className="fab fa-instagram"></i>
             </button>
-            <button type="button" class="btn btn-outline-dark">
+            <button type="button" className="btn btn-outline-dark">
               <i className="fab fa-facebook-square"></i>
             </button>
-            <button type="button" class="btn btn-outline-dark">
+            <button type="button" className="btn btn-outline-dark">
               <i className="fab fa-youtube-square"></i>
             </button>
-            <button type="button" class="btn btn-outline-dark">
+            <button type="button" className="btn btn-outline-dark">
               <i className="fab fa-twitch"></i>
             </button>
-            <button type="button" class="btn btn-outline-dark">
+            <button type="button" className="btn btn-outline-dark">
               <i className="fab fa-twitter-square"></i>
             </button>
           </div>

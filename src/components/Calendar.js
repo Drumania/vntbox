@@ -47,16 +47,15 @@ const Calendar = () => {
             </div>
           </div>
 
-          <div className="week-names">
-            <div className="week-day">Lunes</div>
-            <div className="week-day">Martes</div>
-            <div className="week-day">Miércoles</div>
-            <div className="week-day">Jueves</div>
-            <div className="week-day">Viernes</div>
-            <div className="week-day">Sábado</div>
-            <div className="week-day">Domingo</div>
-          </div>
-          <div className="week">
+          <div className="calendar">
+            <div className="day-name">Lunes</div>
+            <div className="day-name">Martes</div>
+            <div className="day-name">Miércoles</div>
+            <div className="day-name">Jueves</div>
+            <div className="day-name">Viernes</div>
+            <div className="day-name">Sábado</div>
+            <div className="day-name">Domingo</div>
+
             <div className="day">
               <label className="day-label">1</label>
               <ul>
@@ -125,9 +124,7 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">7</label>
             </div>
-          </div>
 
-          <div className="week">
             <div className="day">
               <label className="day-label">8</label>
               <ul>
@@ -165,9 +162,7 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">14</label>
             </div>
-          </div>
 
-          <div className="week">
             <div className="day">
               <label className="day-label">15</label>
               <ul>
@@ -233,9 +228,7 @@ const Calendar = () => {
                 </li>
               </ul>
             </div>
-          </div>
 
-          <div className="week">
             <div className="day">
               <label className="day-label">22</label>
             </div>
@@ -287,9 +280,7 @@ const Calendar = () => {
             <div className="day">
               <label className="day-label">28</label>
             </div>
-          </div>
 
-          <div className="week">
             <div className="day">
               <label className="day-label">29</label>
             </div>

@@ -149,44 +149,45 @@ a:hover {
 
 /* Calendar */
 
+/* Calendar header */
 .calendar-tools {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
-.calendar-tools a {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #333;
-  line-height: 40px;
-  width: 30px;
-  display: inline-block;
+.calendar-tools > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.calendar-tools h2 {
-  width: 200px;
-  display: inline-block;
+.calendar-tools > div a {
+  font-size: 22px;
+  display: block;
+  padding: 8px;
 }
 
-.week-names {
-  border-bottom: 1px solid var(--lines-color);
+.calendar-tools > div h2 {
+  font-size: 26px;
+  padding: 5px 0 0;
+}
+
+/* Calendar content */
+.calendar {
+  list-style: none;
   display: grid;
-  grid-template-columns: 14.25% 14.25% 14.25% 14.25% 14.25% 14.25% 14.25%;
-  grid-template-rows: 14.25% 14.25% 14.25% 14.25% 14.25% 14.25% 14.25%;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0;
+  padding: 0;
 }
 
-.week {
-  border-bottom: 1px solid var(--lines-color);
-  border-left: 1px solid var(--lines-color);
-  display: grid;
-  grid-template-columns: 14.25% 14.25% 14.25% 14.25% 14.25% 14.25% 14.25%;
-  grid-template-rows: 14.25% 14.25% 14.25% 14.25% 14.25% 14.25% 14.25%;
-}
-
-.week-day {
-  line-height: 66px;
+.day-name {
+  font-size: 14px;
+  margin-bottom: 2px;
+  padding: 4px;
+  text-align: center;
 }
 
 .day {
@@ -194,7 +195,9 @@ a:hover {
   height: 110px;
   border-right: 1px solid var(--lines-color);
   padding: 5px;
+  border-bottom: 1px solid var(--lines-color);
 }
+
 .day-label {
   grid-row-start: 1;
   text-align: left;
@@ -220,6 +223,8 @@ a:hover {
   float: left;
   margin: 2px;
 }
+
+/* end of calendar */
 
 .event-in-cal {
   height: 29px;
