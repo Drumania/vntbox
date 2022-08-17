@@ -198,10 +198,42 @@ a:hover {
   border-bottom: 1px solid var(--lines-color);
 }
 
+.day.today {
+  background-color: #9d5dff2e;
+}
+
 .day-label {
   grid-row-start: 1;
   text-align: left;
   margin: 0;
+}
+
+.first-day-1 {
+  grid-column-start: 1;
+}
+
+.first-day-2 {
+  grid-column-start: 2;
+}
+
+.first-day-3 {
+  grid-column-start: 3;
+}
+
+.first-day-4 {
+  grid-column-start: 4;
+}
+
+.first-day-5 {
+  grid-column-start: 5;
+}
+
+.first-day-6 {
+  grid-column-start: 6;
+}
+
+.first-day-7 {
+  grid-column-start: 7;
 }
 
 .day ul {
