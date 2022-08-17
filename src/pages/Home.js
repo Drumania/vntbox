@@ -5,8 +5,8 @@ import Footer from "../components/Footer";
 import Calendar from "../components/Calendar";
 import Event from "./Event";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 
 const Home = () => {
   return (
@@ -21,8 +21,8 @@ const Home = () => {
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={swiper => console.log(swiper)}
         >
           <SwiperSlide>
             <Calendar />
@@ -30,7 +30,7 @@ const Home = () => {
           <SwiperSlide>
             <Event />
           </SwiperSlide>
-        </Swiper>        
+        </Swiper>
       </main>
     </>
   );

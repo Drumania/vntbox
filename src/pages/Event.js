@@ -94,7 +94,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${mapex})`,
+                        backgroundImage: `url(${mapex})`
                       }}
                       alt="ufc"
                     >
@@ -123,7 +123,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${ufc})`,
+                        backgroundImage: `url(${ufc})`
                       }}
                       alt="ufc"
                     >
@@ -148,7 +148,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${mashinky})`,
+                        backgroundImage: `url(${mashinky})`
                       }}
                       alt="mashinky"
                     >
@@ -173,7 +173,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${platzi})`,
+                        backgroundImage: `url(${platzi})`
                       }}
                       alt="platzi"
                     >
