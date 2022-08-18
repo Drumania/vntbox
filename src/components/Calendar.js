@@ -10,7 +10,7 @@ const Calendar = () => {
   const locale = "es";
 
   const intlForMonths = new Intl.DateTimeFormat(locale, { month: "long" });
-  // const intlForWeeks = new Intl.DateTimeFormat(locale, { weekday: "long" });
+  //  const intlForWeeks = new Intl.DateTimeFormat(locale, { weekday: "long" });
   const monthName = intlForMonths.format(new Date(year, month));
 
   return (

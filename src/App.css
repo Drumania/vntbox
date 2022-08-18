@@ -142,9 +142,7 @@ a:hover {
 .custom-box-height-full {
   background: #fff;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 7px 1px rgb(0 0 0 / 2%);
 }
 
 /* Calendar */
@@ -179,6 +177,7 @@ a:hover {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  grid-gap: 3px;
   margin: 0;
   padding: 0;
 }
@@ -193,9 +192,8 @@ a:hover {
 .day {
   display: block;
   height: 110px;
-  border-right: 1px solid var(--lines-color);
   padding: 5px;
-  border-bottom: 1px solid var(--lines-color);
+  background-color: #fafafa;
 }
 
 .day.today {
