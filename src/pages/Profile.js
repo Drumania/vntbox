@@ -50,19 +50,19 @@ const Profile = () => {
             role="group"
             aria-label="Default button group"
           >
-            <button type="button" className="btn btn-outline-dark">
+            <button type="button" className="btn">
               <i className="fab fa-instagram"></i>
             </button>
-            <button type="button" className="btn btn-outline-dark">
+            <button type="button" className="btn">
               <i className="fab fa-facebook-square"></i>
             </button>
-            <button type="button" className="btn btn-outline-dark">
+            <button type="button" className="btn">
               <i className="fab fa-youtube-square"></i>
             </button>
-            <button type="button" className="btn btn-outline-dark">
+            <button type="button" className="btn">
               <i className="fab fa-twitch"></i>
             </button>
-            <button type="button" className="btn btn-outline-dark">
+            <button type="button" className="btn">
               <i className="fab fa-twitter-square"></i>
             </button>
           </div>

@@ -1,10 +1,10 @@
 import React from "react";
 
-const EventsByDay = ({ nameAccount, imgAccount }) => {
+const EventsByDay = ({ nameAccount, imgAccount, eventLink }) => {
 
   return (
     <a
-      href="Event"
+      href={eventLink}
       className="event-in-cal"
       style={{
         backgroundImage: `url(../img/avatar/${imgAccount})`

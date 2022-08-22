@@ -196,6 +196,10 @@ a:hover {
   background-color: #fafafa;
 }
 
+.day.finde {
+  background-color: #f3f3f3;
+}
+
 .day.today {
   background-color: #9d5dff2e;
 }
