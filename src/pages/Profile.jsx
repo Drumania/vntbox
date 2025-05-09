@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import netflix from "../img/avatar/netflix.png";
 import WhoAdd from "../components/WhoAdd";
 import Footer from "../components/Footer";
@@ -6,7 +6,7 @@ import Calendar from "../components/Calendar";
 
 const Profile = () => {
   return (
-    <Fragment>
+    <>
       <aside className="col-3">
         <div className="custom-box row mb-4 no-gutters">
           <div className="col-10 mb-2 mr-auto ml-auto text-center">
@@ -75,7 +75,7 @@ const Profile = () => {
       <main className="col-12 col-lg-9">
         <Calendar />
       </main>
-    </Fragment>
+    </>
   );
 };
 

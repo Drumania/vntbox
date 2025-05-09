@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 import mapex from "../img/avatar/mapex.jpg";
@@ -8,7 +7,7 @@ import ufc from "../img/avatar/ufc.jpg";
 
 const Event = () => {
   return (
-    <Fragment>
+    <>
       <main className="col-12  ">
         <div className="custom-box custom-box-vntbox p-3 mb-5">
           <div className="row">
@@ -94,7 +93,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${mapex})`
+                        backgroundImage: `url(${mapex})`,
                       }}
                       alt="ufc"
                     >
@@ -123,7 +122,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${ufc})`
+                        backgroundImage: `url(${ufc})`,
                       }}
                       alt="ufc"
                     >
@@ -148,7 +147,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${mashinky})`
+                        backgroundImage: `url(${mashinky})`,
                       }}
                       alt="mashinky"
                     >
@@ -173,7 +172,7 @@ const Event = () => {
                       to={"/Profile"}
                       className="event-in-cal"
                       style={{
-                        backgroundImage: `url(${platzi})`
+                        backgroundImage: `url(${platzi})`,
                       }}
                       alt="platzi"
                     >
@@ -299,77 +298,77 @@ const Event = () => {
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
                 <div className="col-1">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/100x100"
+                    src="https://placeholder.com/100x100"
                     alt="placeholder"
                   />
                 </div>
@@ -384,77 +383,77 @@ const Event = () => {
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
               <div className="col-3 mb-4">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/100x100"
+                  src="https://placeholder.com/100x100"
                   alt="placeholder"
                 />
               </div>
@@ -469,7 +468,7 @@ const Event = () => {
 
         <h2>Comentarios</h2>
       </main>
-    </Fragment>
+    </>
   );
 };
 
